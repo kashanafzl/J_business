@@ -1,0 +1,102 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.backgroundpic{
+    background-image: url('./img/bg.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+}
+
+
+
+.headingdiv{
+    padding-inline: 70px;
+    padding-block: 20px;
+}
+
+.headingdiv h1{
+    color: #fff;
+    font-size: 90px;
+    font-weight: 400;
+    padding-inline: 70px;
+    letter-spacing: 10px;
+}
+
+
+.imgmaindiv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-block: 50px;
+}
+
+
+.mainbgcolordiv{
+    background-color: #2C2C2C;
+    padding-block: 50px;
+}
+
+.imgmaindiv img{
+    width: 200px;
+}
+
+
+.threestagmaindiv{
+    padding-left: 200px;
+}
+
+
+.threestagmaindiv h2{
+    font-size: 50px;
+    letter-spacing: 5px;
+    color: #fff;
+}
+
+
+.threestagmaindiv span{
+    color: #FFBB00;
+}
+
+#secspan{
+    color: #fff;
+    padding-left: 200px;
+}
+
+
+.mainmanimgdiv{
+    padding-block: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+
+
+.mainmanimgdiv img{
+    width: 300px;
+}
+
+
+@media screen and (max-width:500px) {
+    .headingdiv h1{
+        padding-inline: 0px;
+    }
+
+    .threestagmaindiv {
+        padding-left: 20px;
+    }
+}

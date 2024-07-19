@@ -180,11 +180,9 @@ width: 380px;
     display: flex;
     /* width: 70%; */
     flex-wrap: wrap;
-    gap: 10px;
+
     /* padding: 10px; */
     justify-content: center;
-    background-color: #fff;
-    margin-inline: 243px;
     margin-block: 50px;
 
 }
@@ -210,6 +208,7 @@ width: 380px;
     text-align: left;
     font-weight: 600;
     font-size: 20px;
+    background-color: #fff;
 
  
 }
@@ -279,23 +278,15 @@ width: 380px;
 }
 
 
-.maindivtable{
-    display: flex;
-    /* width: 70%; */
-    flex-wrap: wrap;
-    gap: 10px;
-    /* padding: 10px; */
-    justify-content: center;
-    background-color: #fff;
-    margin-inline: 0px;
-    margin-block: 50px;
-    padding-block: 100px;
-
-}
 
 #threetablediv {
     border: none;
     padding-left: 0px;
+}
+
+.maindivtable {
+
+    gap: 15px;
 }
 
     

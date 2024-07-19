@@ -11,6 +11,11 @@ body{
     overflow-x: hidden;
 }
 
+
+html{
+    overflow-x: hidden;
+}
+
 .backgroundpic{
     background-image: url('./img/bg.png');
     height: 100vh;
@@ -248,7 +253,7 @@ width: min-content;
     }
     .cardmaindiv {
         background-color: #A5A5A5;
-        width: 89%;
+      
       
     }
 

@@ -107,7 +107,7 @@ body{
 
 .cardmaindiv{
 background-color:  #A5A5A5;
-width: 380px;
+width: min-content;
 }
    
 .cardmaindiv img{
@@ -223,6 +223,14 @@ width: 380px;
     border-left: 1px solid rgb(233, 229, 229);
     padding-left: 20px;
 }
+
+
+.futuredivtext{
+    text-align: center;
+}
+
+
+
 
 @media screen and (max-width:500px) {
     .headingdiv h1{

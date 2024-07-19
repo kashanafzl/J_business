@@ -129,8 +129,47 @@ width: 29.5%;
 }
 
 
+.currectmaindivtext{
+    text-align: center;
+}
+
+.currectmaindivtext h1{
+    color: #fff;
+}
 
 
+.mainpaddingdiv{
+    padding-inline: 120px;
+}
+
+.stepsmaindiv{
+    margin-block: 45px;
+    background-color: #FFD403;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 10px;
+    text-align: left;
+}
+
+.steppdiv{
+    text-align: center;
+    font-size: 22px;
+    color: #fff;
+    letter-spacing: 5px;
+}
+
+
+.charactertextdiv{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.charactertextdiv h1{
+    color: #fff;
+}
 
 
 

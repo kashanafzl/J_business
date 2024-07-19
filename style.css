@@ -135,6 +135,7 @@ width: 29.5%;
 
 .currectmaindivtext h1{
     color: #fff;
+    font-size: 40px;
 }
 
 
@@ -169,6 +170,7 @@ width: 29.5%;
 
 .charactertextdiv h1{
     color: #fff;
+    font-size: 40px;
 }
 
 
@@ -203,4 +205,28 @@ width: 29.5%;
         color: #fff;
         padding-left: 24px;
     }
+
+    .mainpaddingdiv {
+        padding-inline: 20px;
+    }
+
+    .stepsmaindiv {
+        font-size: 20px;
+    }
+
+    .steppdiv {
+        font-size: 18px;
+    }
+
+    .charactertextdiv h1{
+        color: #fff;
+        font-size: 26px;
+    }
+
+    
+.currectmaindivtext h1{
+    color: #fff;
+    font-size: 26px;
+}
+    
 }

@@ -255,6 +255,21 @@ width: min-content;
 }
 
 
+.bg2{
+    background-image: url('./img/bg2.svg');
+    height: 100vh;
+    background-size: cover;
+}
+
+.bg2 h1{
+    color: #FFD403;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+
+
 @media screen and (max-width:500px) {
     .headingdiv h1{
         padding-inline: 0px;

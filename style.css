@@ -234,7 +234,25 @@ width: min-content;
     text-align: center;
 }
 
+.futuredivtext h5{
+    color: #1C689D;
+    background-color: #fff;
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
 
+
+.cartdiv{
+    padding-block: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.cartdiv img{
+    width: 800px;
+}
 
 
 @media screen and (max-width:500px) {
@@ -300,5 +318,17 @@ width: min-content;
     gap: 15px;
 }
 
+.cartdiv img {
+    width: 300px;
+}
+
+.futuredivtext h5 {
+    color: #1C689D;
+    background-color: #fff;
+    display: inline-block;
+    padding: 11px;
+    font-size: 16px;
+    border-radius: 10px;
+}
     
 }

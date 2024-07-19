@@ -251,11 +251,8 @@ width: min-content;
     .threestagmaindiv {
         padding-left: 20px;
     }
-    .cardmaindiv {
-        background-color: #A5A5A5;
-        width: min-content;
-      
-      
+ .cardmaindiv img {
+        width: 300px; /* Fixed width for small screens */
     }
 
     .threestagmaindiv h2 {

@@ -91,12 +91,77 @@ body{
 }
 
 
+/* card div */
+
+
+.maincarddiv{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-block: 50px;
+}
+
+
+.cardmaindiv{
+background-color:  #A5A5A5;
+width: 29.5%;
+}
+   
+.cardmaindiv img{
+    width: 380px;
+}
+
+.cardcontent{
+    padding-inline: 20px;
+    padding-block: 20px;
+}
+
+
+.cardmaindiv h2{
+    color: #FFC400;
+}
+
+.cardmaindiv p{
+    color: #fff;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
 @media screen and (max-width:500px) {
     .headingdiv h1{
         padding-inline: 0px;
+       
+            padding-top: 50px;
+            color: #fff;
+            font-size: 55px;
+         
+        
     }
 
     .threestagmaindiv {
         padding-left: 20px;
+    }
+    .cardmaindiv {
+        background-color: #A5A5A5;
+        width: 89%;
+      
+    }
+
+    .threestagmaindiv h2 {
+        font-size: 27px;
+      
+    }
+
+    #secspan {
+        color: #fff;
+        padding-left: 24px;
     }
 }

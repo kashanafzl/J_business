@@ -9,14 +9,19 @@ body {
 	overflow-x: hidden;
 }
 
-.backgroundpic {
-	background-image: url("./img/bg.png");
-	height: 100vh;
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	width: 100%;
-	position: relative;
+
+html{
+    overflow-x: hidden;
+}
+
+.backgroundpic{
+    background-image: url('./img/bg.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
 }
 
 .headingdiv {
@@ -157,6 +162,14 @@ body {
 }
 
 
+.cardmaindiv{
+background-color:  #A5A5A5;
+width: min-content;
+}
+   
+.cardmaindiv img{
+    width: 382px;
+}
 
 
 .bg2{
@@ -166,8 +179,19 @@ body {
     background-size: cover;
 }
 
-.bg2 h1{
-    color: #FFD403;
+
+.cardmaindiv h2{
+    color: #FFC400;
+}
+
+.cardmaindiv p{
+    color: #fff;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+
+.currectmaindivtext{
     text-align: center;
     padding-top: 30px;
     font-size: 40px;
@@ -378,9 +402,102 @@ th {
 }
 
 
+.maindivtable{
+    display: flex;
+    /* width: 70%; */
+    flex-wrap: wrap;
+
+    /* padding: 10px; */
+    justify-content: center;
+    margin-block: 50px;
+
+}
+
+
+.tableone{
+    background-color: #BAD1E1;
+    text-align: left;
+    font-weight: 600;
+    font-size: 20px;
+    /* width: 40%; */
+ 
+}
+.tableone p{
+    border-bottom: 1px solid #fff;
+    padding: 10px;
+
+}
+
+
+.tabletwo{
+    color: #1C689D;
+    text-align: left;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #fff;
+
+ 
+}
+.tabletwo p{
+    border-bottom: 1px solid #BAD1E1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+#threetablediv{
+    border-left: 1px solid rgb(233, 229, 229);
+    padding-left: 20px;
+}
+
+
+.futuredivtext{
+    text-align: center;
+}
+
+.futuredivtext h5{
+    color: #1C689D;
+    background-color: #fff;
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+
+.cartdiv{
+    padding-block: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.cartdiv img{
+    width: 800px;
+}
+
+
+.bg2{
+    background-image: url('./img/bg2.svg');
+    height: 100vh;
+    background-size: cover;
+}
+
+.bg2 h1{
+    color: #FFD403;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
 
 
 
+    .threestagmaindiv {
+        padding-left: 20px;
+    }
+ .cardmaindiv img {
+        width: 300px; /* Fixed width for small screens */
+    }
 
 
 
@@ -433,3 +550,30 @@ th {
 		font-size: 26px;
 	}
 }
+
+
+
+#threetablediv {
+    border: none;
+    padding-left: 0px;
+}
+
+.maindivtable {
+
+    gap: 15px;
+}
+
+.cartdiv img {
+    width: 300px;
+}
+
+.futuredivtext h5 {
+    color: #1C689D;
+    background-color: #fff;
+    display: inline-block;
+    padding: 11px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+    
+

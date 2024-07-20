@@ -275,8 +275,16 @@ th {
 .head {
 	padding: 5rem 0px;
 	text-align: center;
-	font-size: 1.6rem;
-	color: #f2f2f2;
+	font-size: 1.8rem;
+	color: #E9C200;
+}
+
+.eyepicdiv{
+	padding-block: 50px;
+}
+
+.eyepicdiv img{
+	width: 100%;
 }
 
 .model {
@@ -310,6 +318,10 @@ th {
 .list_inside .lastP {
 	width: 80%;
 	color: #f2f2f2;
+}
+
+.lastP span{
+	color: #E9C200;
 }
 
 .arrow_img {
@@ -384,7 +396,7 @@ th {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: #f2f2f2;
+	color: #E9C200;
 	font-size: 1.4rem;
 }
 .b2main {
@@ -392,7 +404,7 @@ th {
 	align-items: center;
 	flex-direction: column;
 	gap: 1.5rem;
-	color: #f2f2f2;
+	color: #E9C200;
 	font-size: 1.5rem;
 }
 .b3_main {
@@ -492,10 +504,10 @@ th {
 }
 .ins_g11 > h2 {
 	font-size: 1.6rem;
-	color: #ffbb00;
+	color: #fff;
 }
 .ins_g11 > p {
-	color: #f2f2f2;
+	color: ffbb00;
 	font-size: 1.3rem;
 }
 
@@ -627,6 +639,18 @@ th {
 .y_ins > h3 {
 	background-color: #ffbb00;
 	padding: 10px 20px;
+}
+
+.tablelasttext{
+	position: absolute;
+	color: #00C2FF;
+	padding-block: 20px;
+	text-align: center;
+}
+
+.tablelasttext h2{
+	font-size: 24px;
+	text-align: center;
 }
 
 .la {

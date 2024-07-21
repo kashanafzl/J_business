@@ -660,9 +660,12 @@ th {
 
 .tablelasttext {
 	position: absolute;
-	color: #00c2ff;
-	padding-block: 20px;
-	text-align: center;
+    color: #00c2ff;
+    padding-block: 20px;
+    text-align: center;
+
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .tablelasttext h2 {
@@ -760,10 +763,10 @@ th {
 	width: 100%;
 }
 .zn > h2 {
-	font-size: 1.8rem;
-	color: #f2f2f2;
-	margin: 4rem 0px;
-	padding-bottom: 10rem;
+    font-size: 1.8rem;
+    color: #f2f2f2;
+    margin: 1rem 0px;
+    padding-bottom: 5rem;
 }
 .zn > p {
 	font-size: 1.6rem;
@@ -773,6 +776,10 @@ th {
 }
 .z_p13 {
 	color: #ffbb00;
+}
+
+.z_p14{
+	color: #f2f2f2;
 }
 .z_p12 {
 	color: #ffbb00;
@@ -852,6 +859,18 @@ th {
 	.last {
 		padding: 3rem 20px;
 	}
+
+
+	.tablelasttext {
+		position: absolute;
+		color: #00c2ff;
+		padding-block: 20px;
+		text-align: center;
+		left: 0%;
+		 transform: translateX(0%);
+	}
+
+
 	.selast {
 		margin: 3rem 0px;
 		display: grid;
@@ -911,9 +930,36 @@ th {
 
 	.Hamza_p {
 		padding: 20px 0px;
-		font-size: 1.3rem;
+		font-size: 1.2rem;
 	}
 
+	.chheadh2 {
+		text-align: center;
+		color: #ffbb00;
+		padding: 3rem 0rem;
+		font-size: 2rem;
+		z-index: 11;
+	}
+
+	.mainmanimgdiv img {
+		width: 280px;
+	}
+
+	.chartupertext h2 {
+		font-size: 20px;
+		background-color: #fff;
+		color: #1c689d;
+		display: inline-block;
+		padding: 13px;
+		border-radius: 10px;
+		margin-inline: 20px;
+	}
+
+	.ttp {
+		position: relative;
+		top: 2rem;
+		left: 0rem;
+	}
 	.list_inside .lastP {
 		width: 80%;
 		color: #f2f2f2;
@@ -954,10 +1000,10 @@ th {
 		font-size: 1.6rem;
 	}
 	.l1 {
-		padding: 2rem 10px;
+		padding: 2rem 15px;
 	}
 	.inside_li > p {
-		font-size: 1.2rem;
+		font-size: 1rem;
 	}
 	.anyset {
 		grid-template-columns: 1fr;
@@ -985,6 +1031,7 @@ th {
 @media screen and (max-width: 500px) {
 	.lastdiv_inside {
 		font-size: 1.2rem;
+		gap: 2rem;
 	}
 
 	.tablelasttext h2 {
@@ -999,20 +1046,30 @@ th {
 		color: #f2f2f2;
 	}
 	.onemorediv > p {
-		padding-left: 7.5rem;
+		line-height: 32px;
+        padding-left: 5rem;
+        font-size: 16px;
+        text-align: left;
+	}
+
+	.lah2div > p {
+		margin: 3rem 20px;
+		line-height: 47px;
+		font-size: 1.5rem;
+		color: #e9c200;
 	}
 
 	.lastdiv_inside > img {
 		width: 50px;
 	}
 
-	.selast {
-		margin: 3rem 0px;
-		display: grid;
-		grid-template-columns: 1fr;
-		gap: 3rem;
-		padding: 2rem 10px;
-	}
+    .selast {
+        margin: 3rem 15px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        padding: 2rem 10px;
+    }
 	.headingdiv h1 {
 		padding-inline: 0px;
 		margin-top: -10rem;
@@ -1191,7 +1248,7 @@ th {
 	}
 
 	.zn > p {
-		font-size: 1.3rem;
+		font-size: 1.2rem;
 		padding: 10px;
 	}
 	.GIRDSYETEM .x {

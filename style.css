@@ -660,12 +660,12 @@ th {
 
 .tablelasttext {
 	position: absolute;
-    color: #00c2ff;
-    padding-block: 20px;
-    text-align: center;
+	color: #00c2ff;
+	padding-block: 20px;
+	text-align: center;
 
-    left: 50%;
-    transform: translateX(-50%);
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 .tablelasttext h2 {
@@ -763,10 +763,10 @@ th {
 	width: 100%;
 }
 .zn > h2 {
-    font-size: 1.8rem;
-    color: #f2f2f2;
-    margin: 1rem 0px;
-    padding-bottom: 5rem;
+	font-size: 1.8rem;
+	color: #f2f2f2;
+	margin: 1rem 0px;
+	padding-bottom: 5rem;
 }
 .zn > p {
 	font-size: 1.6rem;
@@ -778,7 +778,7 @@ th {
 	color: #ffbb00;
 }
 
-.z_p14{
+.z_p14 {
 	color: #f2f2f2;
 }
 .z_p12 {
@@ -833,6 +833,133 @@ th {
 .onemorediv > p {
 	padding-left: 8.5rem;
 }
+
+@media screen and (max-width: 1920px) and (min-width: 1600px) {
+	.cardmaindiv img {
+		width: 100%;
+	}
+	.maindivtable {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 10px;
+		justify-content: center;
+		background-color: #fff;
+		margin-inline: 100px;
+		margin-block: 50px;
+	}
+	.tableone p {
+		border-bottom: 1px solid #fff;
+		padding: 16px;
+	}
+
+	.tabletwo p {
+		font-size: 25px;
+	}
+	.cartdiv img {
+		width: 80%;
+	}
+	th,
+	td {
+		font-size: 27px;
+	}
+	.meetting > img {
+		width: 100%;
+		margin-block: 12rem;
+	}
+	.tablelasttext h2 {
+		font-size: 41px;
+		text-align: center;
+		margin-top: 2rem;
+	}
+
+	.img_text > img {
+		width: 100%;
+	}
+	.inside_li {
+		justify-content: start;
+	}
+	.inside_li > p {
+		font-size: 1.8rem;
+		color: #f2f2f2;
+	}
+	.l1 {
+		padding: 3rem 20vw;
+	}
+	.inside_li > p {
+		font-size: 2.2rem;
+		color: #f2f2f2;
+	}
+	.anyset {
+		padding: 2rem 18vw;
+	}
+
+	.la {
+		font-size: 1.5rem;
+	}
+	.y_ins > h3 {
+		font-size: 1.5rem;
+	}
+	.y_ins > p {
+		font-size: 1.5rem;
+	}
+	.zn > h2 {
+		font-size: 2.2rem;
+	}
+	.zn > p {
+		font-size: 1.9rem;
+	}
+	.hamzaHeading {
+		text-align: center;
+		padding-bottom: 5rem;
+	}
+	.another_in > p {
+		font-size: 1.9rem;
+	}
+	.another_in > h2 {
+		font-size: 2.6rem;
+	}
+	.Hamza_p {
+		font-size: 2rem;
+	}
+	.b1 {
+		font-size: 1.8rem;
+	}
+	.b2main {
+
+		font-size: 1.8rem;
+	}
+	.g12 > p {
+		font-size: 1.7rem;
+	}
+	.g11 {
+
+		font-size: 1.7rem;
+	}
+	.onemorediv {
+		justify-content: start;
+	}
+	.anse_hea > h1 {
+		font-size: 2.2rem;
+	}
+	.anse_hea > h2 {
+		font-size: 2rem;}
+
+		.GIRDSYETEM .x {
+			font-size: 1.6rem;
+		}
+	.list_in {
+		font-size: 2rem;
+	}
+	.list_inside {
+		font-size: 1.8rem;
+	}
+
+	.text_in > h1 {
+		font-size: 2.4rem;
+		color: red;
+	}
+}
+
 @media screen and (max-width: 1300px) and (min-width: 1000px) {
 	.zn > h2 {
 		margin: 2rem 0px;
@@ -860,16 +987,14 @@ th {
 		padding: 3rem 20px;
 	}
 
-
 	.tablelasttext {
 		position: absolute;
 		color: #00c2ff;
 		padding-block: 20px;
 		text-align: center;
 		left: 0%;
-		 transform: translateX(0%);
+		transform: translateX(0%);
 	}
-
 
 	.selast {
 		margin: 3rem 0px;
@@ -924,8 +1049,7 @@ th {
 	}
 	.hamzaHeading {
 		font-size: 20px;
-        padding: 29px 10px;
-    
+		padding: 29px 10px;
 	}
 
 	.Hamza_p {
@@ -1040,16 +1164,15 @@ th {
 		text-align: center;
 	}
 
-
 	.onemorediv {
 		font-size: 1.2rem;
 		color: #f2f2f2;
 	}
 	.onemorediv > p {
 		line-height: 32px;
-        padding-left: 5rem;
-        font-size: 16px;
-        text-align: left;
+		padding-left: 5rem;
+		font-size: 16px;
+		text-align: left;
 	}
 
 	.lah2div > p {
@@ -1063,13 +1186,13 @@ th {
 		width: 50px;
 	}
 
-    .selast {
-        margin: 3rem 15px;
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 3rem;
-        padding: 2rem 10px;
-    }
+	.selast {
+		margin: 3rem 15px;
+		display: grid;
+		grid-template-columns: 1fr;
+		gap: 3rem;
+		padding: 2rem 10px;
+	}
 	.headingdiv h1 {
 		padding-inline: 0px;
 		margin-top: -10rem;
@@ -1161,7 +1284,7 @@ th {
 		margin: 2rem 0px;
 		color: #ffc400;
 	}
-	
+
 	.b1 {
 		display: flex;
 		justify-content: start;
@@ -1170,7 +1293,7 @@ th {
 		font-size: 1.3rem;
 	}
 
-	.b2main{
+	.b2main {
 		font-size: 1.3rem;
 	}
 

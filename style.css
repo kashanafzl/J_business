@@ -291,7 +291,7 @@ td {
 
 .ttp {
 	position: relative;
-	top: 2rem;
+	top: 0rem;
 	left: 1rem;
 }
 
@@ -864,47 +864,43 @@ th {
 }
 
 /* table */
-
 .maindivtable {
-	display: flex;
-	background-color: inherit;
-	flex-wrap: wrap;
-	justify-content: center;
-	margin-inline: 243px;
-	margin-block: 50px;
+    display: flex;
+    background-color: inherit;
+    justify-content: center;
+    margin-inline: 243px;
+    margin-block: 50px;
 }
 
-.tableone {
-	background-color: #bad1e1;
-	text-align: left;
-	font-weight: 600;
-	font-size: 20px;
-	/* width: 40%; */
+table {
+    width: 100%;
+    border-collapse: collapse;
 }
 
-.tableone p {
-	border-bottom: 1px solid #fff;
-	padding: 10px;
-}
-
-.tabletwo {
+ td {
+    text-align: left;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: 1px solid #a3ceec !important;
 	background-color: #f2f2f2;
-	color: #1c689d;
-	text-align: left;
-	font-weight: 600;
-	font-size: 20px;
-	padding-left: 10px;
+	border-bottom: 1px solid #fff;
+    color: #1c689d;
 }
 
-.tabletwo p {
-	border-bottom: 1px solid #bad1e1;
-	padding: 10px;
-	font-size: 16px;
+th {
+    background-color: #bad1e1;
+	border-bottom: 1px solid #fff;
+    color: #fff;
 }
 
-#threetablediv {
-	border-left: 1px solid rgb(233, 229, 229);
+
+
+tbody tr td:first-child {
+    background-color: #bad1e1;
+    color: black;
 }
+
 
 .selast {
 	margin: 3rem 0px;
